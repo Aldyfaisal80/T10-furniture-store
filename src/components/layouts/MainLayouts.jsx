@@ -1,5 +1,5 @@
+import Content from "../fragments/Content";
 import Footer from "../fragments/Footer";
-import Hero from "../fragments/Hero";
 import Navbar from "../fragments/Navbar";
 
 export default function MainLayouts() {
@@ -9,7 +9,7 @@ export default function MainLayouts() {
                 <Navbar />
             </div>
             <div className="w-full">
-                <Hero />
+                <Content />
             </div>
             <div className="w-full">
                 <Footer />
