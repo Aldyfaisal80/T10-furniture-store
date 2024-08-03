@@ -8,10 +8,10 @@ export default function MainLayouts() {
             <div className="w-full">
                 <Navbar />
             </div>
-            <div>
+            <div className="w-full">
                 <Hero />
             </div>
-            <div>
+            <div className="w-full">
                 <Footer />
             </div>
         </div>
