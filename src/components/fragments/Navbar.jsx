@@ -2,7 +2,7 @@ import { HiMagnifyingGlass } from "react-icons/hi2";
 import { GiBeachBag } from "react-icons/gi";
 export default function Navbar() {
   return (
-    <nav className="flex w-full justify-between items-center py-4 text-[2rem]">
+    <nav className="flex w-full justify-between items-center py-4 text-[1.8rem] text-font-color">
       <div>
         <h1 className="italic">Sofa Set</h1>
       </div>
