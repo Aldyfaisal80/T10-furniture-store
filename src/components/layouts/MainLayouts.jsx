@@ -4,7 +4,7 @@ import Navbar from "../fragments/Navbar";
 
 export default function MainLayouts() {
     return (
-        <div className="px -[20px] border-2">
+        <div className="px-[20px] border-2">
             <div className="w-full">
                 <Navbar />
             </div>
