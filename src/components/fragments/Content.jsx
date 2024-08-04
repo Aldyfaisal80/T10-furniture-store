@@ -38,20 +38,20 @@ export default function Content() {
                 <span className="text-8xl">Hot Delas For You</span>
                 <div><img src={ArrowLeft} className="w-[400px]" alt="" /></div>
             </div>
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between bg-primary-brown">
                 <div className="flex flex-col">
                     <FaTruckFast size={100} className="text-icon-color"/>
                     <h1 className="text-3xl text-font-color font-bold">Free Shooping</h1>
                     <span>we combine interior and <br /> exterior design service</span>
                 </div>
                 <div className="flex flex-col">
-                    <FaTruckFast size={100} className="text-icon-color"/>
-                    <h1 className="text-3xl text-font-color font-bold">Free Shooping</h1>
+                    <FaCircleDollarToSlot size={100} className="text-icon-color"/>
+                    <h1 className="text-3xl text-font-color font-bold">Save Money</h1>
                     <span>we combine interior and <br /> exterior design service</span>
                 </div>
                 <div className="flex flex-col">
-                    <FaTruckFast size={100} className="text-icon-color"/>
-                    <h1 className="text-3xl text-font-color font-bold">Free Shooping</h1>
+                    <PiChats size={100} className="text-icon-color"/>
+                    <h1 className="text-3xl text-font-color font-bold">Contact With Us</h1>
                     <span>we combine interior and <br /> exterior design service</span>
                 </div>
             </div>

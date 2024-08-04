@@ -15,6 +15,7 @@ export default {
         'primary-brown': '#E0B383',
         'primary-bg': '#F3E5D8',
         'icon-color': '#946E44',
+        'bg-card': '#EFDECC',
         'hover-color': '#D1AB87',
       },
     },
