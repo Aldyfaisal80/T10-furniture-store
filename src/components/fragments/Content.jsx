@@ -1,6 +1,8 @@
 import HeaderImg from "../../../public/assets/images/header1.png"
 import ArrowLeft from "../../../public/assets/images/arrow left.png"
 import ArrowRight from "../../../public/assets/images/arrow right.png"
+import vh2ChairDisplay from "../../../public/assets/images/chair 1.png"
+import vh2ChairDisplay2 from "../../../public/assets/images/chair 2.png"
 import vh3Chair0 from "../../../public/assets/images/display chair 0.png"
 import vh3Chair1 from "../../../public/assets/images/display chair 1.png"
 import vh3Chair2 from "../../../public/assets/images/display chair 2.png"
@@ -28,7 +30,7 @@ import { BsPlusCircleFill } from "react-icons/bs";
 export default function Content() {
     return (
         <div>
-            <div className="w-full h-screen flex relative">
+            <div className="w-full min-h-screen flex relative">
                 <div className="font-Poppins border-2 whitespace flex flex-col gap-4">
                     <div className="text-font-color text-9xl font-bold leading-snug">
                         <span className="text-justify">Modern <br /> Furniture</span>
@@ -40,38 +42,65 @@ export default function Content() {
                         <button className="bg-primary-brown px-4 py-2 rounded-lg">Read More</button>
                     </div>
                 </div>
-                <img src={HeaderImg} className="absolute right-0 mr-[-54px] w-[1500px]" alt="" />
+                <img src={HeaderImg} className="absolute right-0 w-[1300px]" alt="" />
             </div>
             <div className="flex items-center justify-center gap-20 w-full text-font-color">
                 <div><img src={ArrowRight} className="w-[150px]" alt="" /></div>
                 <span className="text-4xl font-bold">Hot Deals For You</span>
                 <div><img src={ArrowLeft} className="w-[150px]" alt="" /></div>
             </div>
-            <div className="flex items-center justify-between bg-primary-brown">
-                <div className="flex flex-col">
-                    <FaTruckFast size={100} className="text-icon-color"/>
+            <div className="flex items-center justify-between bg-bg-card px-36 py-10 rounded-xl shadow-2xl">
+                <div className="flex flex-col gap-4">
+                    <FaTruckFast size={100} className="text-icon-color" />
                     <h1 className="text-3xl text-font-color font-bold">Free Shooping</h1>
                     <span>we combine interior and <br /> exterior design service</span>
                 </div>
-                <div className="flex flex-col">
-                    <FaCircleDollarToSlot size={100} className="text-icon-color"/>
+                <div className="flex flex-col gap-4">
+                    <FaCircleDollarToSlot size={100} className="text-icon-color" />
                     <h1 className="text-3xl text-font-color font-bold">Save Money</h1>
                     <span>we combine interior and <br /> exterior design service</span>
                 </div>
-                <div className="flex flex-col">
-                    <PiChats size={100} className="text-icon-color"/>
+                <div className="flex flex-col gap-4">
+                    <PiChats size={100} className="text-icon-color" />
                     <h1 className="text-3xl text-font-color font-bold">Contact With Us</h1>
                     <span>we combine interior and <br /> exterior design service</span>
                 </div>
             </div>
-            <div className="w-full h-screen border-2 border-blue-500 mt-20">
-                <div className="text-font-color text-6xl font-bold flex items-center justify-center">
-                    <span>This Week Featured Product</span>
+            {/* 2vh */}
+            <div className="w-full min-h-screen flex justify-center items-center flex-col gap-[20px] font-Poppins mb-[100px]">
+                <div className="w-full flex justify-center">
+                    <h1 className="text-font-color font-bold text-5xl">This Week Featured Product</h1>
                 </div>
-                <div>
-                    <div>
-                        <div>
-                            <span>Being able to sit back and relax in your favourite armchair is truly one of the greatests feelings in life. That's why we've created a stunning range of loving armchairs, using only materials of the finest quality. to ensure you have the best seat in the house</span>
+                <div className="w-[70%] px-[50px] bg-[#F0DAC5] rounded-[20px] text-[1.4rem] tracking-tighter ">
+                    <div className="w-full flex items-center justify-between">
+                        <div className="w-[60%] pl-10 flex flex-col gap-[10px]">
+                            <p className="text-font-color font-bold">
+                                Being able to sit back and relax in your favourite armchair is
+                                truly one of the greatest feelings in life. That&apos;s why we&apos;ve
+                                created a stunning range of lovingly handmade luxury armchairs,
+                                using only materials of the finest quality, to ensure you have
+                                the best seat in the house.
+                            </p>
+
+                            <button className="w-[20%] h-[35px] rounded-[10px] bg-primary-blue text-[1.1rem]  flex items-center justify-center"><a href="#">Add To Cart</a></button>
+                        </div>
+                        <div className="w-[30%] h-[450px] relative rounded-b-[20px] rounded-t-[300px] mt-[-50px] mr-[-80px] bg-[#D7AC82]">
+                            <img src={vh2ChairDisplay} alt="" className="w-[320px] h-[320px] absolute bottom-0 left-[-40px]" />
+                        </div>
+                    </div>
+                    <div className="w-full flex items-center justify-between mt-[-100px] ">
+                        <div className="w-[30%] h-[450px] relative rounded-b-[20px] rounded-t-[300px] ml-[-80px] bg-[#D7AC82] bottom-[-50px]">
+                            <img src={vh2ChairDisplay2} alt="" className="w-[400px] h-[400px] absolute bottom-[-20px] right-[-120px]" />
+                        </div>
+                        <div className="w-[60%] flex flex-col gap-[10px]">
+                            <p className="text-font-color font-bold">
+                                As in the best seat in the house. Combining comfort and
+                                creativity, our smashing range of armchairs features design to
+                                suit any style. Perhaps you&apos;re looking for a mid-century
+                                masterpiece.
+                            </p>
+
+                            <button className="w-[20%] h-[35px] rounded-[10px] bg-primary-brown text-[1.1rem] text-font-color flex items-center justify-center"><a href="#">Add To Cart</a></button>
                         </div>
                     </div>
                 </div>
