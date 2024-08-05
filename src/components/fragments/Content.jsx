@@ -14,6 +14,7 @@ import vh3Product5 from "../../../public/assets/images/card-product5.png"
 import vh3Product6 from "../../../public/assets/images/card-product6.png"
 import vh3Product7 from "../../../public/assets/images/card-product7.png"
 import vh3Product8 from "../../../public/assets/images/card-product8.png"
+import MainProduct from "../../../public/assets/images/img footer.png"
 
 
 import { FaTruckFast } from "react-icons/fa6";
@@ -242,8 +243,19 @@ export default function Content() {
                     </div>
                 </div>
             </div>
-            <div className="w-full h-screen border-2 border-green-500">
-                <h1>View High 4</h1>
+            <div className="w-full p-[120px] border-2 border-green-500">
+                <div className="w-full flex justify-center items-center">
+                    <div className="w-[45%] flex flex-col justify-center items-center relative">
+                        <div className="flex justify-center items-center w-[450px] h-[450px] rounded-full bg-primary-brown mt-[-20px]">
+                        </div>
+                        <img src={MainProduct} alt="" className="w-[590px] h-[590px] absolute top-[-50px]" />
+                    </div>
+                    <div className="w-[55%] flex flex-col gap-10 p-16">
+                        <h1 className="text-5xl text-font-color font-bold">We Are The Bigest <br /> Furniture Brands</h1>
+                        <p className="text-lg text-font-color font-semibold">Over the years we have always been on top of <br /> the furniture industries arround the world, that why <br /> everyone believes in the qualityof our products </p>
+                        <button className="w-[200px] h-[50px] bg-primary-blue text-black font-bold rounded-lg">See More</button>
+                    </div>
+                </div>
             </div>
         </div>
     )
