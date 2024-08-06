@@ -1,5 +1,7 @@
 import { HiMagnifyingGlass } from "react-icons/hi2";
 import { GiBeachBag } from "react-icons/gi";
+import Navlink from "../elements/NavLink";
+import NavIcon from "../elements/NavIcon";
 export default function Navbar() {
   return (
     <nav className="flex w-full justify-between items-center py-4 text-[1.8rem] text-font-color">
@@ -9,26 +11,22 @@ export default function Navbar() {
       <div>
         <ul className="flex w-[600px] justify-between items-center">
           <li>
-            <a className="w-[100px] hover:font-bold">Home</a>
+            <Navlink text="Home" />
           </li>
           <li>
-            <a className="w-[100px] hover:font-bold">Reviews</a>
+            <Navlink text="Shop" />
           </li>
           <li>
-            <a className="w-[100px] hover:font-bold">Contact</a>
+            <Navlink text="Contact" />
           </li>
           <li>
-            <a className="w-[100px] hover:font-bold">About Us</a>
+            <Navlink text="About Us" />
           </li>
         </ul>
       </div>
-      <div className="flex gap-4 items-center">
-        <a>
-          <HiMagnifyingGlass />
-        </a>
-        <a>
-          <GiBeachBag />
-        </a>
+      <div className="flex gap-6 items-center">
+        <NavIcon icon={<HiMagnifyingGlass />} />
+        <NavIcon icon={<GiBeachBag />} />
       </div>
     </nav>
   )

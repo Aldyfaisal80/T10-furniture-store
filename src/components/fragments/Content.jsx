@@ -25,6 +25,7 @@ import { CgArrowLongRight } from "react-icons/cg";
 import { GoChevronLeft } from "react-icons/go";
 import { GoChevronRight } from "react-icons/go";
 import { BsPlusCircleFill } from "react-icons/bs";
+import Card from "../elements/CardProducts"
 
 export default function Content() {
     return (
@@ -142,102 +143,38 @@ export default function Content() {
                         </div>
                     </div>
                     <div className="flex flex-wrap w-[1600px] justify-between gap-[30px] items-center py-[60px]">
-                        <div className="flex flex-col justify-between items-center w-[370px] h-[450px]">
-                            <div className="flex justify-center items-center w-full h-[80%] bg-bg-card rounded-tl-[2vh] rounded-tr-[2vh] p-4">
-                                <img src={vh3Product1} alt="" className="h-[300px]" />
-                            </div>
-                            <div className="flex w-full h-[20%] justify-between items-center bg-primary-brown text-font-color p-4 text-xl rounded-bl-[2vh] rounded-br-[2vh] font-semibold">
-                                <div>
-                                    <h1>Long Chair</h1>
-                                    <span>$100.00</span>
-                                </div>
-                                <BsPlusCircleFill />
-                            </div>
-                        </div>
-                        <div className="flex flex-col justify-between items-center w-[370px] h-[450px]">
-                            <div className="flex justify-center items-center w-full h-[80%] bg-bg-card rounded-tl-[2vh] rounded-tr-[2vh] p-4">
-                                <img src={vh3Product2} alt="" className="h-[300px]" />
-                            </div>
-                            <div className="flex w-full h-[20%] justify-between items-center bg-primary-brown text-font-color p-4 text-xl rounded-bl-[2vh] rounded-br-[2vh] font-semibold">
-                                <div>
-                                    <h1>Long Chair</h1>
-                                    <span>$100.00</span>
-                                </div>
-                                <BsPlusCircleFill />
-                            </div>
-                        </div>
-                        <div className="flex flex-col justify-between items-center w-[370px] h-[450px]">
-                            <div className="flex justify-center items-center w-full h-[80%] bg-bg-card rounded-tl-[2vh] rounded-tr-[2vh] p-4">
-                                <img src={vh3Product3} alt="" className="h-[300px]" />
-                            </div>
-                            <div className="flex w-full h-[20%] justify-between items-center bg-primary-brown text-font-color p-4 text-xl rounded-bl-[2vh] rounded-br-[2vh] font-semibold">
-                                <div>
-                                    <h1>Long Chair</h1>
-                                    <span>$100.00</span>
-                                </div>
-                                <BsPlusCircleFill />
-                            </div>
-                        </div>
-                        <div className="flex flex-col justify-between items-center w-[370px] h-[450px]">
-                            <div className="flex justify-center items-center w-full h-[80%] bg-bg-card rounded-tl-[2vh] rounded-tr-[2vh] p-4">
-                                <img src={vh3Product4} alt="" className="h-[300px]" />
-                            </div>
-                            <div className="flex w-full h-[20%] justify-between items-center bg-primary-brown text-font-color p-4 text-xl rounded-bl-[2vh] rounded-br-[2vh] font-semibold">
-                                <div>
-                                    <h1>Long Chair</h1>
-                                    <span>$100.00</span>
-                                </div>
-                                <BsPlusCircleFill />
-                            </div>
-                        </div>
-                        <div className="flex flex-col justify-between items-center w-[370px] h-[450px]">
-                            <div className="flex justify-center items-center w-full h-[80%] bg-bg-card rounded-tl-[2vh] rounded-tr-[2vh] p-4">
-                                <img src={vh3Product5} alt="" className="h-[300px]" />
-                            </div>
-                            <div className="flex w-full h-[20%] justify-between items-center bg-primary-brown text-font-color p-4 text-xl rounded-bl-[2vh] rounded-br-[2vh] font-semibold">
-                                <div>
-                                    <h1>Long Chair</h1>
-                                    <span>$100.00</span>
-                                </div>
-                                <BsPlusCircleFill />
-                            </div>
-                        </div>
-                        <div className="flex flex-col justify-between items-center w-[370px] h-[450px]">
-                            <div className="flex justify-center items-center w-full h-[80%] bg-bg-card rounded-tl-[2vh] rounded-tr-[2vh] p-4">
-                                <img src={vh3Product6} alt="" className="h-[300px]" />
-                            </div>
-                            <div className="flex w-full h-[20%] justify-between items-center bg-primary-brown text-font-color p-4 text-xl rounded-bl-[2vh] rounded-br-[2vh] font-semibold">
-                                <div>
-                                    <h1>Long Chair</h1>
-                                    <span>$100.00</span>
-                                </div>
-                                <BsPlusCircleFill />
-                            </div>
-                        </div>
-                        <div className="flex flex-col justify-between items-center w-[370px] h-[450px]">
-                            <div className="flex justify-center items-center w-full h-[80%] bg-bg-card rounded-tl-[2vh] rounded-tr-[2vh] p-4">
-                                <img src={vh3Product7} alt="" className="h-[300px]" />
-                            </div>
-                            <div className="flex w-full h-[20%] justify-between items-center bg-primary-brown text-font-color p-4 text-xl rounded-bl-[2vh] rounded-br-[2vh] font-semibold">
-                                <div>
-                                    <h1>Long Chair</h1>
-                                    <span>$100.00</span>
-                                </div>
-                                <BsPlusCircleFill />
-                            </div>
-                        </div>
-                        <div className="flex flex-col justify-between items-center w-[370px] h-[450px]">
-                            <div className="flex justify-center items-center w-full h-[80%] bg-bg-card rounded-tl-[2vh] rounded-tr-[2vh] p-4">
-                                <img src={vh3Product8} alt="" className="h-[300px]" />
-                            </div>
-                            <div className="flex w-full h-[20%] justify-between items-center bg-primary-brown text-font-color p-4 text-xl rounded-bl-[2vh] rounded-br-[2vh] font-semibold">
-                                <div>
-                                    <h1>Long Chair</h1>
-                                    <span>$100.00</span>
-                                </div>
-                                <BsPlusCircleFill />
-                            </div>
-                        </div>
+                        <Card>
+                            <Card.CardImg img={vh3Product1} />
+                            <Card.CardDesc title="Long Chair" price="$100.00" icon={<BsPlusCircleFill />} />
+                        </Card>
+                        <Card>
+                            <Card.CardImg img={vh3Product2} />
+                            <Card.CardDesc title="Long Chair" price="$100.00" icon={<BsPlusCircleFill />} />
+                        </Card>
+                        <Card>
+                            <Card.CardImg img={vh3Product3} />
+                            <Card.CardDesc title="Long Chair" price="$100.00" icon={<BsPlusCircleFill />} />
+                        </Card>
+                        <Card>
+                            <Card.CardImg img={vh3Product4} />
+                            <Card.CardDesc title="Long Chair" price="$100.00" icon={<BsPlusCircleFill />} />
+                        </Card>
+                        <Card>
+                            <Card.CardImg img={vh3Product5} />
+                            <Card.CardDesc title="Long Chair" price="$100.00" icon={<BsPlusCircleFill />} />
+                        </Card>
+                        <Card>
+                            <Card.CardImg img={vh3Product6} />
+                            <Card.CardDesc title="Long Chair" price="$100.00" icon={<BsPlusCircleFill />} />
+                        </Card>
+                        <Card>
+                            <Card.CardImg img={vh3Product7} />
+                            <Card.CardDesc title="Long Chair" price="$100.00" icon={<BsPlusCircleFill />} />
+                        </Card>
+                        <Card>
+                            <Card.CardImg img={vh3Product8} />
+                            <Card.CardDesc title="Long Chair" price="$100.00" icon={<BsPlusCircleFill />} />
+                        </Card>
                     </div>
                 </div>
             </div>
@@ -251,7 +188,7 @@ export default function Content() {
                     <div className="w-[55%] flex flex-col gap-10 p-16">
                         <h1 className="text-5xl text-font-color font-bold">We Are The Bigest <br /> Furniture Brands</h1>
                         <p className="text-lg text-font-color font-semibold">Over the years we have always been on top of <br /> the furniture industries arround the world, that why <br /> everyone believes in the qualityof our products </p>
-                        <button className="w-[200px] h-[50px] bg-primary-blue text-black font-bold rounded-lg">See More</button>
+                        <button className="w-[200px] h-[50px] bg-primary-blue font-bold rounded-lg text-font-color">See More</button>
                     </div>
                 </div>
             </div>
