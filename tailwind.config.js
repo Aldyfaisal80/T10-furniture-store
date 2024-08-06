@@ -13,6 +13,7 @@ export default {
         'font-color': '#746457',
         'primary-blue': '#90A8C4',
         'primary-brown': '#E0B383',
+        'button-color': '#E6CFB5',
         'primary-bg': '#F3E5D8',
         'icon-color': '#946E44',
         'bg-card': '#EFDECC',

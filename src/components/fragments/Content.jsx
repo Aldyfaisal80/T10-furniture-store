@@ -22,8 +22,6 @@ import { FaCircleDollarToSlot } from "react-icons/fa6";
 import { PiChats } from "react-icons/pi";
 import { CgArrowLongLeft } from "react-icons/cg";
 import { CgArrowLongRight } from "react-icons/cg";
-import { IoIosArrowDropleftCircle } from "react-icons/io";
-import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { GoChevronLeft } from "react-icons/go";
 import { GoChevronRight } from "react-icons/go";
 import { BsPlusCircleFill } from "react-icons/bs";
@@ -43,14 +41,14 @@ export default function Content() {
                         <button className="bg-primary-brown px-4 py-2 rounded-lg">Read More</button>
                     </div>
                 </div>
-                <img src={HeaderImg} className="absolute right-0 w-[1300px]" alt="" />
+                <img src={HeaderImg} className="absolute right-0 w-[1600px] h-[790px] mr-[-50px]" alt="" />
             </div>
             <div className="flex items-center justify-center gap-20 w-full text-font-color">
                 <div><img src={ArrowRight} className="w-[150px]" alt="" /></div>
                 <span className="text-4xl font-bold">Hot Deals For You</span>
                 <div><img src={ArrowLeft} className="w-[150px]" alt="" /></div>
             </div>
-            <div className="flex items-center justify-between bg-bg-card px-36 py-10 rounded-xl shadow-2xl">
+            <div className="flex items-center justify-between bg-bg-card px-36 py-10 mt-[100px] rounded-xl shadow-2xl">
                 <div className="flex flex-col gap-4">
                     <FaTruckFast size={100} className="text-icon-color" />
                     <h1 className="text-3xl text-font-color font-bold">Free Shooping</h1>
@@ -68,7 +66,7 @@ export default function Content() {
                 </div>
             </div>
             {/* 2vh */}
-            <div className="w-full min-h-screen flex justify-center items-center flex-col gap-[20px] font-Poppins mb-[100px]">
+            <div className="w-full min-h-screen flex justify-center items-center flex-col gap-[20px] font-Poppins mt-[100px] mb-[100px]">
                 <div className="w-full flex justify-center">
                     <h1 className="text-font-color font-bold text-5xl">This Week Featured Product</h1>
                 </div>
@@ -106,7 +104,7 @@ export default function Content() {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col gap-10 w-full min-h-screen border-2 border-yellow-500">
+            <div className="flex flex-col gap-10 w-full min-h-screen">
                 <div className="flex flex-col w-full">
                     <div className="flex justify-center items-center gap-6 text-font-color">
                         <CgArrowLongRight className="text-5xl" />
@@ -135,12 +133,12 @@ export default function Content() {
                     <div className="flex flex-col w-full justify-center items-center">
                         <h1 className="text-4xl font-bold py-[60px]">A Huge Collection Of Furniture</h1>
                         <div className="flex justify-center items-center gap-4 text-[1.3rem] font-semibold">
-                            <span className="w-[200px] flex justify-center items-center bg-primary-brown rounded-full p-2 hover:bg-hover-color">All Collection</span>
-                            <span className="w-[200px] flex justify-center items-center bg-primary-brown rounded-full p-2 hover:bg-hover-color">Office</span>
-                            <span className="w-[200px] flex justify-center items-center bg-primary-brown rounded-full p-2 hover:bg-hover-color">Bedroom</span>
-                            <span className="w-[200px] flex justify-center items-center bg-primary-brown rounded-full p-2 hover:bg-hover-color">Sofa</span>
-                            <span className="w-[200px] flex justify-center items-center bg-primary-brown rounded-full p-2 hover:bg-hover-color">Chair</span>
-                            <span className="w-[200px] flex justify-center items-center bg-primary-brown rounded-full p-2 hover:bg-hover-color">More</span>
+                            <span className="w-[200px] flex justify-center items-center bg-button-color rounded-full p-2 hover:bg-hover-color">All Collection</span>
+                            <span className="w-[200px] flex justify-center items-center bg-button-color rounded-full p-2 hover:bg-hover-color">Office</span>
+                            <span className="w-[200px] flex justify-center items-center bg-button-color rounded-full p-2 hover:bg-hover-color">Bedroom</span>
+                            <span className="w-[200px] flex justify-center items-center bg-button-color rounded-full p-2 hover:bg-hover-color">Sofa</span>
+                            <span className="w-[200px] flex justify-center items-center bg-button-color rounded-full p-2 hover:bg-hover-color">Chair</span>
+                            <span className="w-[200px] flex justify-center items-center bg-button-color rounded-full p-2 hover:bg-hover-color">More</span>
                         </div>
                     </div>
                     <div className="flex flex-wrap w-[1600px] justify-between gap-[30px] items-center py-[60px]">
@@ -243,7 +241,7 @@ export default function Content() {
                     </div>
                 </div>
             </div>
-            <div className="w-full p-[120px] border-2 border-green-500">
+            <div className="w-full p-[120px]">
                 <div className="w-full flex justify-center items-center">
                     <div className="w-[45%] flex flex-col justify-center items-center relative">
                         <div className="flex justify-center items-center w-[450px] h-[450px] rounded-full bg-primary-brown mt-[-20px]">
