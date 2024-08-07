@@ -26,6 +26,8 @@ import { GoChevronLeft } from "react-icons/go";
 import { GoChevronRight } from "react-icons/go";
 import { BsPlusCircleFill } from "react-icons/bs";
 import Card from "../elements/CardProducts"
+import ButtonPrimary from "../elements/ButtonPrimary"
+import ButtonCategory from "../elements/ButtonCategory"
 
 export default function Content() {
     return (
@@ -38,9 +40,9 @@ export default function Content() {
                     <span className="text-2xl leading-snug">we combine enterior and exterior design <br /> service and ofthen provide them as a sigle <br /> solution
                     </span>
                     <div className="flex gap-4 mt-4">
-                        <button className="bg-primary-blue  px-4 py-2 rounded-lg">Start Now</button>
-                        <button className="bg-primary-brown px-4 py-2 rounded-lg">Read More</button>
-                    </div>
+                        <ButtonPrimary text="Start Now" className={"bg-primary-blue"} />
+                        <ButtonPrimary text="Read More" className={"bg-primary-brown"} />
+                    </div> 
                 </div>
                 <img src={HeaderImg} className="absolute right-0 w-[1600px] h-[790px] mr-[-50px]" alt="" />
             </div>
@@ -81,8 +83,7 @@ export default function Content() {
                                 using only materials of the finest quality, to ensure you have
                                 the best seat in the house.
                             </p>
-
-                            <button className="w-[20%] h-[35px] rounded-[10px] bg-primary-blue text-[1.1rem]  flex items-center justify-center"><a href="#">Add To Cart</a></button>
+                            <ButtonPrimary text="Add To Cart" className={"bg-primary-blue "} />
                         </div>
                         <div className="w-[30%] h-[450px] relative rounded-b-[20px] rounded-t-[300px] mt-[-50px] mr-[-80px] bg-[#D7AC82]">
                             <img src={vh2ChairDisplay} alt="" className="w-[320px] h-[320px] absolute bottom-0 left-[-40px]" />
@@ -99,8 +100,7 @@ export default function Content() {
                                 suit any style. Perhaps you&apos;re looking for a mid-century
                                 masterpiece.
                             </p>
-
-                            <button className="w-[20%] h-[35px] rounded-[10px] bg-primary-brown text-[1.1rem] text-font-color flex items-center justify-center"><a href="#">Add To Cart</a></button>
+                            <ButtonPrimary text="Add To Cart" className={"bg-primary-brown "} />
                         </div>
                     </div>
                 </div>
@@ -134,12 +134,12 @@ export default function Content() {
                     <div className="flex flex-col w-full justify-center items-center">
                         <h1 className="text-4xl font-bold py-[60px]">A Huge Collection Of Furniture</h1>
                         <div className="flex justify-center items-center gap-4 text-[1.3rem] font-semibold">
-                            <span className="w-[200px] flex justify-center items-center bg-button-color rounded-full p-2 hover:bg-hover-color">All Collection</span>
-                            <span className="w-[200px] flex justify-center items-center bg-button-color rounded-full p-2 hover:bg-hover-color">Office</span>
-                            <span className="w-[200px] flex justify-center items-center bg-button-color rounded-full p-2 hover:bg-hover-color">Bedroom</span>
-                            <span className="w-[200px] flex justify-center items-center bg-button-color rounded-full p-2 hover:bg-hover-color">Sofa</span>
-                            <span className="w-[200px] flex justify-center items-center bg-button-color rounded-full p-2 hover:bg-hover-color">Chair</span>
-                            <span className="w-[200px] flex justify-center items-center bg-button-color rounded-full p-2 hover:bg-hover-color">More</span>
+                            <ButtonCategory text="All Categories" />
+                            <ButtonCategory text="Office" />
+                            <ButtonCategory text="Bedroom" />
+                            <ButtonCategory text="Sofa" />
+                            <ButtonCategory text="Chair" />
+                            <ButtonCategory text="More" />
                         </div>
                     </div>
                     <div className="flex flex-wrap w-[1600px] justify-between gap-[30px] items-center py-[60px]">
