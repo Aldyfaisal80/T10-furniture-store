@@ -16,6 +16,25 @@ import vh3Product7 from "../../../public/assets/images/card-product7.png"
 import vh3Product8 from "../../../public/assets/images/card-product8.png"
 import MainProduct from "../../../public/assets/images/img footer.png"
 
+// import {
+//     HeaderImg,
+//     ArrowLeft,
+//     ArrowRight,
+//     vh2ChairDisplay,
+//     vh2ChairDisplay2,
+//     vh3Chair0,
+//     vh3Chair1,
+//     vh3Chair2,
+//     vh3Product1,
+//     vh3Product2,
+//     vh3Product3,
+//     vh3Product4,
+//     vh3Product5,
+//     vh3Product6,
+//     vh3Product7,
+//     vh3Product8,
+//     MainProduct
+//   } from "../elements/Import/ImportAsset";
 
 import { FaTruckFast } from "react-icons/fa6";
 import { FaCircleDollarToSlot } from "react-icons/fa6";
