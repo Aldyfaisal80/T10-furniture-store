@@ -1,15 +1,18 @@
+/* eslint-disable react/prop-types */
 import Content from "../fragments/Content";
 import Footer from "../fragments/Footer";
 import Navbar from "../fragments/Navbar";
 
-export default function MainLayouts() {
+export default function MainLayouts({ children }) {
     return (
         <div className="bg-primary-bg">
             <div className="w-full px-[50px]">
                 <Navbar />
             </div>
             <div className="w-full px-[50px]">
-                <Content />
+                <Content>
+                    {children}
+                </Content>
             </div>
             <div className="w-full">
                 <Footer />
