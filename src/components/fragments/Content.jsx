@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import HeaderImg from "../../../public/assets/images/header1.png"
 import ArrowLeft from "../../../public/assets/images/arrow left.png"
 import ArrowRight from "../../../public/assets/images/arrow right.png"
@@ -6,14 +7,7 @@ import vh2ChairDisplay2 from "../../../public/assets/images/chair 2.png"
 import vh3Chair0 from "../../../public/assets/images/display chair 0.png"
 import vh3Chair1 from "../../../public/assets/images/display chair 1.png"
 import vh3Chair2 from "../../../public/assets/images/display chair 2.png"
-import vh3Product1 from "../../../public/assets/images/card-product1.png"
-import vh3Product2 from "../../../public/assets/images/card-product2.png"
-import vh3Product3 from "../../../public/assets/images/card-product3.png"
-import vh3Product4 from "../../../public/assets/images/card-product4.png"
-import vh3Product5 from "../../../public/assets/images/card-product5.png"
-import vh3Product6 from "../../../public/assets/images/card-product6.png"
-import vh3Product7 from "../../../public/assets/images/card-product7.png"
-import vh3Product8 from "../../../public/assets/images/card-product8.png"
+
 import MainProduct from "../../../public/assets/images/img footer.png"
 
 import { FaTruckFast } from "react-icons/fa6";
@@ -23,10 +17,9 @@ import { CgArrowLongLeft } from "react-icons/cg";
 import { CgArrowLongRight } from "react-icons/cg";
 import { GoChevronLeft } from "react-icons/go";
 import { GoChevronRight } from "react-icons/go";
-import { BsPlusCircleFill } from "react-icons/bs";
-import Card from "../elements/CardProducts"
 import ButtonPrimary from "../elements/ButtonPrimary"
 import ButtonCategory from "../elements/ButtonCategory"
+import ProductCard from "./ProductCard"
 
 export default function Content() {
     return (
@@ -141,39 +134,8 @@ export default function Content() {
                             <ButtonCategory text="More" />
                         </div>
                     </div>
-                    <div className="flex flex-wrap w-[1600px] justify-between gap-[30px] items-center py-[60px]">
-                        <Card>
-                            <Card.CardImg img={vh3Product1} />
-                            <Card.CardDesc title="Long Chair" price="$100.00" icon={<BsPlusCircleFill />} />
-                        </Card>
-                        <Card>
-                            <Card.CardImg img={vh3Product2} />
-                            <Card.CardDesc title="Long Chair" price="$100.00" icon={<BsPlusCircleFill />} />
-                        </Card>
-                        <Card>
-                            <Card.CardImg img={vh3Product3} />
-                            <Card.CardDesc title="Long Chair" price="$100.00" icon={<BsPlusCircleFill />} />
-                        </Card>
-                        <Card>
-                            <Card.CardImg img={vh3Product4} />
-                            <Card.CardDesc title="Long Chair" price="$100.00" icon={<BsPlusCircleFill />} />
-                        </Card>
-                        <Card>
-                            <Card.CardImg img={vh3Product5} />
-                            <Card.CardDesc title="Long Chair" price="$100.00" icon={<BsPlusCircleFill />} />
-                        </Card>
-                        <Card>
-                            <Card.CardImg img={vh3Product6} />
-                            <Card.CardDesc title="Long Chair" price="$100.00" icon={<BsPlusCircleFill />} />
-                        </Card>
-                        <Card>
-                            <Card.CardImg img={vh3Product7} />
-                            <Card.CardDesc title="Long Chair" price="$100.00" icon={<BsPlusCircleFill />} />
-                        </Card>
-                        <Card>
-                            <Card.CardImg img={vh3Product8} />
-                            <Card.CardDesc title="Long Chair" price="$100.00" icon={<BsPlusCircleFill />} />
-                        </Card>
+                    <div>
+                        <ProductCard />
                     </div>
                 </div>
             </div>

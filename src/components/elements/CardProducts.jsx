@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const Card = ({ children }) => {
     return (
         <div className="flex flex-col justify-between items-center w-[370px] h-[450px]">
