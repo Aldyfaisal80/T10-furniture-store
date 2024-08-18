@@ -12,7 +12,7 @@ import Card from "../elements/CardProducts"
 
 export default function ProductCard() {
     return (
-        <div className="flex flex-wrap w-[1600px] justify-between gap-[30px] items-center py-[60px]">
+        <div className="flex flex-wrap w-[1600px] justify-between gap-[30px] items-center">
             <Card>
                 <Card.CardImg img={vh3Product1} />
                 <Card.CardDesc title="Long Chair" price="$100.00" icon={<BsPlusCircleFill />} />

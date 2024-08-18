@@ -11,16 +11,16 @@ export default function Navbar() {
       <div>
         <ul className="flex w-[600px] justify-between items-center">
           <li>
-            <Navlink text="Home" />
+            <Navlink text="Home" className={"w-[100px]"} />
           </li>
           <li>
-            <Navlink text="Shop" />
+            <Navlink text="Shop" className={"w-[100px]"} />
           </li>
           <li>
-            <Navlink text="Contact" />
+            <Navlink text="Contact" className={"w-[100px]"} />
           </li>
           <li>
-            <Navlink text="About Us" />
+            <Navlink text="About Us" className={"w-[100px]"} />
           </li>
         </ul>
       </div>

@@ -1,10 +1,6 @@
-import ProductCard from "./components/fragments/ProductCard";
-import MainLayouts from "./components/layouts/MainLayouts";
-
+import Home from "./pages/Home";
 export default function App() {
     return (
-        <MainLayouts>
-            <ProductCard />
-        </MainLayouts>
+        <Home />
     );
 }
